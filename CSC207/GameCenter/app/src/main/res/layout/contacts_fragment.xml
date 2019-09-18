@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact Information"
+            android:textSize="30dp"
+            android:layout_marginTop="150dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="20dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="Name"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="135dp"
+                    android:layout_height="wrap_content"
+                    android:text="Email"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/cell"
+                    android:layout_width="135dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cell#"
+                    android:textSize="20dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/name1"
+                    android:layout_width="130dp"
+                    android:layout_height="30dp"
+                    android:text="Binwei (Frank) Chen"
+                    android:textSize="11dp" />
+
+                <TextView
+                    android:id="@+id/email1"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="frankbw.chen@mail.utoronto.ca"
+                    android:textSize="11dp" />
+
+                <TextView
+                    android:id="@+id/cell1"
+                    android:layout_width="135dp"
+                    android:layout_height="wrap_content"
+                    android:text="416-518-9322"
+                    android:textSize="11dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/name2"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:text="Haoyan (Max) Jiang"
+                    android:textSize="11dp" />
+
+                <TextView
+                    android:id="@+id/email2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="haoyanhy.jiang@mail.utoronto.ca"
+                    android:textSize="11dp" />
+
+                <TextView
+                    android:id="@+id/cell2"
+                    android:layout_width="135dp"
+                    android:layout_height="wrap_content"
+                    android:text="437-987-5544"
+                    android:textSize="11dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/name3"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:text="Yi (Summer) Tao"
+                    android:textSize="11dp" />
+
+                <TextView
+                    android:id="@+id/email3"
+                    android:layout_width="135dp"
+                    android:layout_height="wrap_content"
+                    android:text="summer.tao@mail.utoronto.ca"
+                    android:textSize="11dp" />
+
+                <TextView
+                    android:id="@+id/cell3"
+                    android:layout_width="135dp"
+                    android:layout_height="wrap_content"
+                    android:text="647-987-6600"
+                    android:textSize="11dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/name4"
+                    android:layout_width="100dp"
+                    android:layout_height="30dp"
+                    android:text="Xinyi (Lucia) Zhang "
+                    android:textSize="11dp" />
+
+                <TextView
+                    android:id="@+id/email4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="luciaxinyi.zhang@mail.utoronto.ca"
+                    android:textSize="11dp" />
+
+                <TextView
+                    android:id="@+id/cell4"
+                    android:layout_width="135dp"
+                    android:layout_height="wrap_content"
+                    android:text="905-616-5876"
+                    android:textSize="11dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/name5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Chenjie (Johnson) Zhao"
+                    android:textSize="11dp" />
+
+                <TextView
+                    android:id="@+id/email5"
+                    android:layout_width="135dp"
+                    android:layout_height="wrap_content"
+                    android:text="johnson.zhao@mail.utoronto.ca"
+                    android:textSize="11dp" />
+
+                <TextView
+                    android:id="@+id/cell5"
+                    android:layout_width="135dp"
+                    android:layout_height="wrap_content"
+                    android:text="647-980-8714"
+                    android:textSize="11dp" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</RelativeLayout>

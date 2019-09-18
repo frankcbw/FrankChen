@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu_bars.GameStoreFragment"
+    android:background="@drawable/bg_gradient">
+
+    <TextView
+        android:id="@+id/Game_Store"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Game Store"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@id/Game_Store"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="40dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/slide"
+                    android:layout_width="217dp"
+                    android:layout_height="217dp"
+                    app:srcCompat="@drawable/img_botton_gc_slid" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="Try and se how many unresolvable pattern in this game :>"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/g2048"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="217dp"
+                    android:maxHeight="217dp"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="3dp"
+                    app:srcCompat="@drawable/g2048_logo" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="2048 is a very popular game, it makes a mathematical genius out of you! Click the pic to buy the game!"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/minesweeper"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="217dp"
+                    android:maxHeight="217dp"
+                    android:scaleType="fitCenter"
+                    android:layout_marginLeft="3dp"
+                    app:srcCompat="@drawable/minesweeper_logo" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center"
+                    android:text="Wel, be careful and wish you good luck!"
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp" />
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>

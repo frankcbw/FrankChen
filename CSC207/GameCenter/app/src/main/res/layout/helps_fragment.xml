@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="70dp">
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Game Instructions"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/mineSweeper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Mine Sweeper"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/instructionM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:autoLink="all"
+            android:clickable="true"
+            />
+
+        <TextView
+            android:id="@+id/slidingTiles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Sliding Tiles"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/instructionS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:clickable="true"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/game2048"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="2048"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/instruction2048"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:clickable="true"
+            android:text="TextView" />
+    </LinearLayout>
+
+</RelativeLayout>

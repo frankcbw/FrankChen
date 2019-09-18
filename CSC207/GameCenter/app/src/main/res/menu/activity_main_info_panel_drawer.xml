@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_person_outline_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/game_store"
+            android:icon="@drawable/ic_videogame_asset_black_24dp"
+            android:title="Game Store" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>
+
+    <item android:title="Game Center">
+        <menu>
+            <item
+                android:id="@+id/slide"
+                android:icon="@drawable/ic_gamepad_black_24dp"
+                android:title="Slide Game" />
+            <item
+                android:id="@+id/g2048"
+                android:icon="@drawable/ic_gamepad_black_24dp"
+                android:title="2048" />
+            <item
+                android:id="@+id/mine_sweeper"
+                android:icon="@drawable/ic_gamepad_black_24dp"
+                android:title="Minesweeper" />
+        </menu>
+    </item>
+
+</menu>
