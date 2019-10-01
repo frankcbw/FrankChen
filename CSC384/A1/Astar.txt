@@ -1,7 +1,0 @@
-1. We can increase/decrease the heuristic value to compensate the overestimation/underestimation. If the value is overestimated, we times the value with 1/1.2 = 0.83. If underestimated, we times the value with 1/0.8 = 1.25.
-
-2. False: 
-The manhattan distance can not be used as an admissible heuristic function as it can overestimate the cost to the goal state. For instance, there is a xanadu at the leftmost cell of the exit, and a robot at the right of the exit. It should cost one move for the xanadu to get to the exit and takes more than one if using the mahanttan distance.
-
-
-
