@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="donald <= 0.5\ngini = 0.476\nsamples = 2286\nvalue = [893, 1393]"] ;
+1 [label="hillary <= 0.5\ngini = 0.499\nsamples = 1543\nvalue = [740, 803]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="the <= 0.5\ngini = 0.494\nsamples = 1450\nvalue = [648, 802]"] ;
+1 -> 2 ;
+3 [label="(...)"] ;
+2 -> 3 ;
+58 [label="(...)"] ;
+2 -> 58 ;
+87 [label="tribute <= 0.5\ngini = 0.021\nsamples = 93\nvalue = [92, 1]"] ;
+1 -> 87 ;
+88 [label="(...)"] ;
+87 -> 88 ;
+89 [label="(...)"] ;
+87 -> 89 ;
+90 [label="the <= 0.5\ngini = 0.327\nsamples = 743\nvalue = [153, 590]"] ;
+0 -> 90 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+91 [label="de <= 0.5\ngini = 0.276\nsamples = 658\nvalue = [109, 549]"] ;
+90 -> 91 ;
+92 [label="(...)"] ;
+91 -> 92 ;
+153 [label="(...)"] ;
+91 -> 153 ;
+154 [label="trump <= 0.5\ngini = 0.499\nsamples = 85\nvalue = [44, 41]"] ;
+90 -> 154 ;
+155 [label="(...)"] ;
+154 -> 155 ;
+156 [label="(...)"] ;
+154 -> 156 ;
+}
