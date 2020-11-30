@@ -5,6 +5,8 @@ I'm a 4th year undergraduate student at University of Toronto (St. George Campus
 
 I'm a passionate young man who is strongly interested in rapidly changing new technologies and can't wait to leverage my skills and knowledge in the real world. I'm currently looking for full-time jobs starting Summer 2021. (Also seeking part-time oppourtunities starting January 2021!)
 
+Feel free to reach out and connect with me at <frankchen0717@gmail.com>!
+
 ---
 
 #### Coursework Projects
