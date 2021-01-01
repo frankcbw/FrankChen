@@ -12,7 +12,7 @@ Feel free to reach out and connect with me at <frankchen0717@gmail.com>!
 #### Coursework Projects
 - [Android Game Mobile App](https://github.com/frankcbw/pages/tree/master/Java/GameCenter): In Java, using AndroidStudio
 - Image Inpaiting Program (In Progress): In Python, using OpenCV, Numpy, Scipy, Matplotlib
-- Recipe Sharing Web App (In Progress): In Javascript, HTML, CSS, using React for front-end and MongoDB for back-end
+- [Recipe Sharing Web App](https://github.com/frankcbw/CookPad): In Javascript, HTML, CSS, using React for front-end and MongoDB for back-end
 - [Other Coursework](https://github.com/frankcbw/projects): Jupyter Notebooks, C, Python, programs, etc.
 
 #### Resume & Transcript
